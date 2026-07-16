@@ -1,6 +1,9 @@
 body {
     text-align: center;
-    background: #222;
+    background: url("gold.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     font-family: Arial;
 }
@@ -16,4 +19,165 @@ h1 {
 
 canvas {
     border: 3px solid white;
+}
+
+#hardModeBtn {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin:5px;
+}
+
+#hardModeBtn:hover {
+    background-color: darkred;
+}
+
+#startBtn {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#startBtn:hover {
+    background-color: darkgreen;
+}
+
+#resetBtn {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:10px;
+}
+
+#resetBtn:hover {
+    background-color: navy;
+}
+
+h1 {
+    color: black;
+}
+
+#score {
+    color: black;
+}
+
+#welcomeModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modalBox{
+    width: 450px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+#modalBox h2{
+    margin-top: 0;
+    font-size: 40px;
+}
+
+#modalBox p{
+    font-size: 22px;
+}
+
+#playBtn{
+    margin-top: 20px;
+    padding: 12px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: gold;
+    font-weight: bold;
+}
+
+#easyModeBtn {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#easyModeBtn:hover {
+    background-color: green;
+}
+
+#winModal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#winBox{
+    background: white;
+    color: rgb(20, 17, 17);
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#winBox h2{
+    font-size: 40px;
+}
+
+#closeWinBtn{
+    padding: 12px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#closeWinBtn {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#closeWinBtn:hover {
+    opacity: 0.8;
 }

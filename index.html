@@ -4,16 +4,47 @@
     <title>Coin Rush</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
 <h1> Coin Rush</h1>
-
 <div id="score">
     Score: 0
 </div>
 
+<div id="welcomeModal">
+    <div id="modalBox">
+        <h2>Coin Rush</h2>
+        <p>
+            Collect as many coins as you can.
+            <br><br>
+            Press Space To Jump.
+        </p>
+        <button id="playBtn">Play</button>
+    </div>
+</div>
+
 <canvas id="gameCanvas" width="900" height="500"></canvas>
+<br><br>
+
+<div id="buttonContainer">
+<button id="hardModeBtn">Hard Mode</button>
+<button id="easyModeBtn">Easy Mode</button>
+<button id="startBtn">Start Game</button>
+<button id="resetBtn">Reset Game</button>
+</div>
+
+<div id="winModal">
+
+    <div id="winBox">
+
+        <h2>You Win!</h2>
+
+        <p>You collected 20 coins!</p>
+
+        <button id="closeWinBtn">Play Again</button>
+
+    </div>
+
+</div>
 
 <script src="script.js"></script>
 
