@@ -15,5 +15,5 @@ Link to Code: https://github.com/rushil070/Coin-Jumper
       - Hard Mode: Quickens the speed of the coin
       - Easy Mode: Slows the speed of the coin
       - Reset Game: Resets the coin in the correct position
-   - A welcome pop up is shown which gives the instructions of the game.
-   - An ending pop up shows up once the game is finished congratulating the user.
+  - A welcome pop up is shown which gives the instructions of the game.
+- An ending pop up shows up once the game is finished congratulating the user.
